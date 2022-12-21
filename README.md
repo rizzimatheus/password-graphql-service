@@ -7,11 +7,11 @@
 ### With Docker
 
 ```bash
-docker build -t verifier-service .
+docker build -t verifier-graphql-service .
 ```
 
 ```bash
-docker run --name verifier-container -p 8080:8080 -d verifier-service
+docker run --name verifier-graphql -p 8080:8080 -d verifier-graphql-service
 ```
 
 ### With Go
